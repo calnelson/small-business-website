@@ -1,0 +1,149 @@
+header {
+    background-color: #12251B;
+    height: 200px;
+    width: 100%; 
+    border: 1px solid black; 
+    display: flex; 
+
+}
+
+.logo {
+    background-color: black;
+    margin-left: 190px; 
+    margin-right: 50px;
+    margin-top: 125px;  
+    height: 100px;
+    width: 300px; 
+    
+}
+
+.logo-text {
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 50px; 
+    padding-top: 20px;
+    padding-left: 15px;  
+}
+
+nav {
+    padding: 50px; 
+    margin-left: 250px; 
+    margin-top: 100px;
+    
+}
+a {
+    background-color: grey; 
+    color: white; 
+    height: 50px; 
+    width: 200px; 
+    border: 1px solid black; 
+    font-size: 25px;
+    padding: 5px; 
+    margin: 10px;
+    border-radius: 10px;  
+    text-decoration: none; 
+}
+
+.banner-section {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black; 
+    /* background-image: url(mountains.jpg);
+    opacity: .5; */
+    
+}
+
+.banner-photo {
+   
+    height: 300px;
+    width: 75%; 
+    border: 1px solid black; 
+    margin: auto; 
+    margin-top: 50px; 
+    background-image: url(mountains.jpg);
+   
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+
+.banner-logo {
+    height: 200px;
+    width: 200px; 
+    margin-left: 175px; 
+    margin-top: 50px; 
+}
+
+.banner-right {
+    border: 1px solid black; 
+    color: white;
+    inline-size: 300px;
+    font-size: 25px; 
+    padding-top: 50px;
+}
+
+.product-descriptions {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black; 
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.product {
+    border: 1px solid black; 
+}
+
+.bottom-articles {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 50% 50%; */
+
+}
+
+.left-article {
+    border: 1px solid black; 
+   
+}
+
+.right-articles {
+
+    border: 1px solid black; 
+    
+    
+    display: grid; 
+    
+    grid-template-rows: 1fr 1fr;
+
+    
+
+}
+
+.container-1 {
+
+ 
+    
+    background-color: red;
+    border: 1px solid black;
+    padding: 10px;  
+
+}
+
+.container-2 {
+   
+   
+    background-color: blue;
+    border: 1px solid black; 
+    padding: 10px; 
+}
+
+footer { 
+    background-color: #4C8F96;
+    height: 200px; 
+    width: 100%;
+    border: 1px solid black; 
+
+}
